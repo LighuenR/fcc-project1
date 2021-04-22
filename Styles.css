@@ -2,30 +2,36 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-}
+  background: #DBDCD7;
+  text-align: center;
+  color: #141518;
 
-body {
-    background:white;
-    text-align: center;
 }
 
 h1 {
-    color: grey;
-    margin-top: 50px;
+
+    margin-top: 20px;
     font-size: 50px;
 
 }
 p {
-    color:black;
-    font-size: 30px;
-    margin-bottom: 20px;
+
+    font-size: 25px;
     height: 100px;
 }
 li {
-    color:black;
-    margin: 20px;
-    font-size: 35px;
+    font-size: 20px;
+  
+    margin: 15px;
+    list-style: none;
+    padding: 0;
 }
- img {
-    width: 100%;
- }
+
+img {
+    max-width: 100%;
+
+}
+
+li:hover {
+    font-weight: bold;
+}
