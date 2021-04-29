@@ -5,33 +5,52 @@
   background: #DBDCD7;
   text-align: center;
   color: #141518;
+  display: column;
+  
 
 }
-
 h1 {
-
     margin-top: 20px;
     font-size: 50px;
-
+    background: #f3f3f3;
 }
-p {
+#date { 
+    background: #f3f3f3;
+}
+
+#img-caption {
 
     font-size: 25px;
     height: 100px;
 }
+h2 {
+    font-size: 35px;
+    background: #F3f3f3;
+    height: 80px;
+    padding-top: 40px;
+}
+
 li {
     font-size: 20px;
   
     margin: 15px;
     list-style: none;
-    padding: 0;
+    padding: 0;  
 }
 
+}
 img {
     max-width: 100%;
-
+    
+    
 }
 
 li:hover {
     font-weight: bold;
+    background: #f3f3f3;
+    font-size: 22px;
+}
+
+footer {
+    margin-top: 20px;
 }
